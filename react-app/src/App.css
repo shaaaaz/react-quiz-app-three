@@ -1,0 +1,172 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(71, 58, 141, 255);
+}
+
+.home {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.play{
+    border-radius: 20px;
+    background-color: #0ab306;
+    height: 50px;
+    width: 200px;
+}
+
+.whiteArea{
+  width: 70vw;
+  height: 70vh;
+  background-color: white;
+
+  color: black;
+}
+
+.question{
+  font-size: 200%;
+  margin-top: 40px;
+}
+
+.questionText{
+  font-size: 150%;
+  margin-top: 40px;
+}
+
+.number{
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.part1{
+  margin-top: 90px;
+  display: flex;
+}
+
+.part2{
+  display: flex;
+}
+
+.entire{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option{
+  color: white;
+  background-color: rgba(30,161,241,255);
+  width: 30vw;
+  margin: 10px 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.buttons{
+  width: 100px;
+  height: 50px;
+  margin: 0px 20px;
+  border-radius: 0;
+}
+
+.buttonArea{
+  margin-top: 50px;
+}
+
+.buttonBlue{
+  background-color: #3e7eaa;
+}
+
+.buttonGreen{
+  background-color: #008001;
+}
+
+.buttonRed{
+  background-color: #d61d1d;
+}
+
+.resultsPage{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resultsHeading{
+  font-size: 200%;
+  margin-top: 30px;
+}
+
+.resultsWhitePart{
+  padding: 40px;
+  width: 45vw;
+  margin-top: 50px;
+  height: 50vh;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statement{
+  font-weight: 700;
+  font-size: 120%;
+}
+
+.score{
+  font-size: 300%;
+  color: rgb(2, 2, 133);
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.text{
+  margin-top: 40px;
+  width: 100%;
+}
+
+.texts{
+  margin-top: 20px;
+  font-weight: 550;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resultsButton{
+  margin-top: 30px;
+}
+
+.rb{
+  width: 200px;
+  height: 40px;
+  border-radius: 0;
+  margin: 0 10px;
+  background-color: white;
+}
+
+.again{
+  color: purple;
+}
+
+.backToHome{
+  color: green;
+}
+
+.buttonGray{
+  background-color: gray;
+}
